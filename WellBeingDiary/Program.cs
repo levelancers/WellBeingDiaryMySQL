@@ -46,7 +46,7 @@ builder.Services.AddSwaggerGen(option =>
 
 builder.Services.AddDbContext<DiaryDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+    options.UseMySQL(builder.Configuration.GetConnectionString("DefaultMySQL")!);
 });
 
 builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
