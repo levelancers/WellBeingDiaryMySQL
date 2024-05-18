@@ -1,4 +1,4 @@
-@WellBeingDiary_HostAddress = http://localhost:5002
+@WellBeingDiary_HostAddress = https://http://wellbeingdiary-api-25348.nodechef.com/
 
 GET {{WellBeingDiary_HostAddress}}/weatherforecast/
 Accept: application/json
