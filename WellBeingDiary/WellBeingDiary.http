@@ -1,4 +1,4 @@
-@WellBeingDiary_HostAddress = https://http://wellbeingdiary-api-25348.nodechef.com/
+@WellBeingDiary_HostAddress = https://wellbeingdiary-api-25348.nodechef.com/
 
 GET {{WellBeingDiary_HostAddress}}/weatherforecast/
 Accept: application/json
